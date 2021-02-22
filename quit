@@ -1,0 +1,13 @@
+#Write a function that takes a single argument as a string. Return false if the string is "quit", "Quit", "QUIT", "q", or "Q". Otherwise, return true.
+
+print("Please enter anything for it to return True and quit, Quit, QUIT, q, or Q for the program to return False \n\n")
+#informational promt
+answer = str(input("Enter: " ))
+#promts for input and changes to a string
+if answer in ['quit', 'Quit', 'QUIT', 'q', 'Q']:
+#if any of the answers are in the string
+    print("False")
+#it will print false
+else:
+  print("True")
+#else it'll print true
